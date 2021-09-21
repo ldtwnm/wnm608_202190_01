@@ -135,6 +135,15 @@ a:hover {
 		padding: 0;
 	}
 
+	.well {
+		padding: 0.5em;
+		background-color: var(--color-neutral-light);
+		margin: 1px;
+	}
+	.well .well {
+		background-color: var(--color-white);
+	}
+
 /* footer */
 
 .footercontrol {
