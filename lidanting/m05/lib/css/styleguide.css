@@ -16,8 +16,150 @@
 body {
 	margin: 0;
 	font-size: 100%;
-	font-family:  Helvetica, Arial, sans-serif;
+	font-family: 'made_evolve_sansregular', Helvetica, Arial, sans-serif;
 }
+
+
+
+@font-face {
+    font-family: 'keira_serif_freeregular';
+    src: url(../typeface/keira/webfontkit_20211012_031750/keira.woff2) format('woff2'),
+         url(../typeface/keira/webfontkit_20211012_031750/keira.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'keira_serif_freeregular', Cambria, Georgia, "Times New Roman", serif;
+}
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evobold';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansbold';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evolight';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sanslight';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evomedium';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansmedium';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evoregular';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansregular';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evothin';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansthin';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* former h1 to h6 title typeface
 
 h1,
 h2,
@@ -27,6 +169,10 @@ h5,
 h6 {
 	font-family: Cambria, Georgia, "Times New Roman", serif;
 }
+
+*/
+
+
 
 a {
 	text-decoration: none;
@@ -79,7 +225,7 @@ a:hover {
 }
 .navbar h1 {
 	font-size: 1em;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'keira_serif_freeregular', Helvetica, Arial, sans-serif;
 	margin: 0;
 }
 .navbar a {

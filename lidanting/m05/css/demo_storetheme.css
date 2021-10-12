@@ -1,11 +1,20 @@
 :root {
+
+	/* change box background color here
+
 	--color-neutral-light: #f0ecec;
 	--color-neutral-medium: #9e8d8d;
 	--color-neutral-dark: #392f2f;
 
-	--color-main-light: #d2dbcf;
-	--color-main-medium: #9bbe81;
-	--color-main-dark: #5c893a;
+	*/
+
+	--color-neutral-light: #e7ede5;
+	--color-neutral-medium: #9bbe81;
+	--color-neutral-dark: #5c893a;
+
+	--color-main-light: #869ccf;
+	--color-main-medium: #3d62b8;
+	--color-main-dark: #183e95;
 
 	--color-alt-light: #e3b8b8;
 	--color-alt-medium: #cc6464;
@@ -19,7 +28,7 @@
 
 
 body {
-	font-family: Calibri, sans-serif;
+	font-family: 'made_evolve_sansregular', sans-serif;
 	background-color: #f9f9f9;
 	padding-bottom: 10em;
 }
