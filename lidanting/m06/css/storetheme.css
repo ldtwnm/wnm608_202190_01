@@ -5,8 +5,9 @@
 }
 
 body {
-	font-family: Calibri, sans-serif;
-	background-color: #f9f9f9;
+	font-family: 'made_evolve_sansregular', Calibri, sans-serif;
+	background-color: #d2dbcf;
+	padding-bottom: 0em;
 }
 
 .view-window>h2 {
@@ -21,3 +22,17 @@ body {
 	font-size: 3em;
 }
 
+[class*='col-']>.card {
+	height: 100%;
+	margin: 0;
+}
+
+[class*='col-']>.well {
+	height: 100%;
+}
+
+@media (max-width: 600px) {
+	h2 {
+		font-size: 1em;
+	}
+}
