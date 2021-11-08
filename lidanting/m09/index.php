@@ -37,6 +37,31 @@
     width: 100%;
   }
 }
+
+
+
+
+
+/* footer */
+
+.footercontrol {
+			padding: 100px;
+			text-align: center;
+			font-size: 0.7em;
+			background-color: black;
+			color: white;
+			margin-top: 100px;
+			margin-bottom: 0px;
+		}
+
+
+
+
+
+
+
+
+
 	</style>
 
 
@@ -99,6 +124,18 @@
 
 		</div>
 	</div>
+
+
+
+
+
+
+<footer class="footercontrol" >&copy; Made by Danting Li in 2021.</footer>
+
+
+
+
+
 
 </body>
 </html>
