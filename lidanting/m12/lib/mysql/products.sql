@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Nov 23, 2021 at 06:20 PM
+-- Generation Time: Nov 23, 2021 at 09:59 PM
 -- Server version: 5.7.35-cll-lve
 -- PHP Version: 7.3.27
 
@@ -47,18 +47,18 @@ CREATE TABLE `products` (
 --
 
 INSERT INTO `products` (`id`, `date_create`, `date_modify`, `category`, `title`, `image_other`, `image_thumb`, `price`, `description`, `quantity`, `total`) VALUES
-(1, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'UXUI', 'UX/UI Mobile Design', 'mobiledesign1.jpg,mobiledesign2.jpg', 'mobiledesign1.jpg', 200.00, 'We offer mobile design package.', 0, 0),
-(2, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'UXUI', 'UX/UI Web Design', 'webdesign1.jpg,webdesign2.jpg', 'webdesign1.jpg', 200.00, 'We offer web design package.', 0, 0),
-(3, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Graphic', 'Social Media Graphic Design', 'socialmediagraphicdesign1.jpg,socialmediagraphicdesign2.jpg', 'socialmediagraphicdesign1.jpg', 200.00, 'We offer social media graphic design packages.', 0, 0),
-(4, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Graphic', 'Packaging Graphic Design', 'packaginggraphicdesign1.jpg,packaginggraphicdesign2.jpg', 'packaginggraphicdesign1.jpg', 200.00, 'We offer packaging graphic design.', 0, 0),
-(5, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Graphic', 'Stationery System Design', 'stationerysystemdesign1.jpg,stationerysystemdesign2.jpg', 'stationerysystemdesign1.jpg', 200.00, 'We offer Stationery System Design.', 0, 0),
-(6, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Branding', 'Branding Design', 'brandingdesign1.jpg,brandingdesign2.jpg', 'brandingdesign1.jpg', 400.00, 'We offer branding design package.', 0, 0),
-(7, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Branding', 'Brand Strategy', 'brandstrategy1.jpg,brandstrategy2.jpg', 'brandstrategy1.jpg', 200.00, 'We offer brand strategy package.', 0, 0),
-(8, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Branding', 'Brand Planning', 'brandplanning1.jpg,brandplanning2.jpg', 'brandplanning1.jpg', 200.00, 'We offer brand planning.', 0, 0),
-(9, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Video', 'Motion Graphics', 'motiongraphics1.jpg,motiongraphics2.jpg', 'motiongraphics1.jpg', 200.00, 'We offer motion graphics design package.', 0, 0),
-(10, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Video', 'Video Editing', 'videoediting1.jpg,videoediting2.jpg', 'videoediting1.jpg', 200.00, 'We offer video editing package.', 0, 0),
-(11, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Typography', 'Type Design', 'typedesign1.jpg,typedesign2.jpg', 'typedesign1.jpg', 200.00, 'We offer type design package.', 0, 0),
-(12, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'Coding', 'Web Development', 'webdevelopment1.jpg,webdevelopment2.jpg', 'webdevelopment1.jpg', 300.00, 'We offer web development package.', 0, 0);
+(1, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'uxui', 'UX/UI Mobile Design', 'mobiledesign1.jpg,mobiledesign2.jpg', 'mobiledesign1.jpg', 200.00, 'We offer mobile design package.', 0, 0),
+(2, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'uxui', 'UX/UI Web Design', 'webdesign1.jpg,webdesign2.jpg', 'webdesign1.jpg', 200.00, 'We offer web design package.', 0, 0),
+(3, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'graphic', 'Social Media Graphic Design', 'socialmediagraphicdesign1.jpg,socialmediagraphicdesign2.jpg', 'socialmediagraphicdesign1.jpg', 200.00, 'We offer social media graphic design packages.', 0, 0),
+(4, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'graphic', 'Packaging Graphic Design', 'packaginggraphicdesign1.jpg,packaginggraphicdesign2.jpg', 'packaginggraphicdesign1.jpg', 200.00, 'We offer packaging graphic design.', 0, 0),
+(5, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'graphic', 'Stationery System Design', 'stationerysystemdesign1.jpg,stationerysystemdesign2.jpg', 'stationerysystemdesign1.jpg', 200.00, 'We offer Stationery System Design.', 0, 0),
+(6, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'branding', 'Branding Design', 'brandingdesign1.jpg,brandingdesign2.jpg', 'brandingdesign1.jpg', 400.00, 'We offer branding design package.', 0, 0),
+(7, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'branding', 'Brand Strategy', 'brandstrategy1.jpg,brandstrategy2.jpg', 'brandstrategy1.jpg', 200.00, 'We offer brand strategy package.', 0, 0),
+(8, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'branding', 'Brand Planning', 'brandplanning1.jpg,brandplanning2.jpg', 'brandplanning1.jpg', 100.00, 'We offer brand planning.', 0, 0),
+(9, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'video', 'Motion Graphics', 'motiongraphics1.jpg,motiongraphics2.jpg', 'motiongraphics1.jpg', 200.00, 'We offer motion graphics design package.', 0, 0),
+(10, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'video', 'Video Editing', 'videoediting1.jpg,videoediting2.jpg', 'videoediting1.jpg', 150.00, 'We offer video editing package.', 0, 0),
+(11, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'typography', 'Type Design', 'typedesign1.jpg,typedesign2.jpg', 'typedesign1.jpg', 200.00, 'We offer type design package.', 0, 0),
+(12, '0000-00-00 00:00:00', '0000-00-00 00:00:00', 'coding', 'Web Development', 'webdevelopment1.jpg,webdevelopment2.jpg', 'webdevelopment1.jpg', 300.00, 'We offer web development package.', 0, 0);
 
 --
 -- Indexes for dumped tables
