@@ -1,26 +1,165 @@
 *, *::before, *::after {
-	box-sizing: border-box;	
+	box-sizing: border-box;
 }
 
 :root {
-	--color-neutral-light: #eee;
-	--color-neutral-medium: #999;
-	--color-neutral-dark: #444;
+	--color-neutral-light: #d2dbcf;
+	--color-neutral-medium: #9bbe81;
+	--color-neutral-dark: #5c893a;
 
-	---color-white: #fff;
-	---color-black: #000;
+	--color-white: #fff;
+	--color-black: #000;
 
 	--header-height: 3rem;
-	/**
-	--border-width: 2em;
-	**/
 }
 
 body {
 	margin: 0;
 	font-size: 100%;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'made_evolve_sansregular', Helvetica, Arial, sans-serif;
 }
+
+
+
+@font-face {
+    font-family: 'keira_serif_freeregular';
+    src: url(../typeface/keira/webfontkit_20211012_031750/keira.woff2) format('woff2'),
+         url(../typeface/keira/webfontkit_20211012_031750/keira.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'keira_serif_freeregular', Cambria, Georgia, "Times New Roman", serif;
+}
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evobold';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansbold';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_bold.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evolight';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sanslight';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_light.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evomedium';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansmedium';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_medium.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evoregular';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansregular';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sans_evothin';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin_evo.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin_evo.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'made_evolve_sansthin';
+    src: url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin.woff2) format('woff2'),
+         url(../typeface/made_evolve_sans/webfontkit_20211012_034248/made_evolve_sans_thin.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+/* former h1 to h6 title typeface
 
 h1,
 h2,
@@ -31,64 +170,59 @@ h6 {
 	font-family: Cambria, Georgia, "Times New Roman", serif;
 }
 
+*/
+
+
+
 a {
 	text-decoration: none;
 	font-weight: bold;
 	color: inherit;
 }
-
 a:hover {
-	text-decoration: none;
+	text-decoration: underline;
 }
 
 
 
-/*  layout classes  */
+/*  layout classes */
 .container {
 	max-width: 1000px;
 	margin-right: auto;
 	margin-left: auto;
 }
-
 .hidden {
 	display: none;
 }
 
-.display-flex{ display:flex }
-.display-block { display: block; }
+
+.display-flex{ display:flex; }
+.display-block { display:block; }
 .display-inline-flex { display: inline-flex; }
-.display-inline-block { display: inline-block; }
+.display-inline-block { display:inline-block; }
 
-.flex-stretch {flex: 1 1 auto;}
-.flex-none { flex: none; 
-}
+.flex-stretch { flex: 1 1 auto; }
+.flex-none { flex: none; }
 
-
-.flex-align-center {
-	align-items: center;
-}
-.flex-justify-center {
-	justify-content: center;
-}
+.flex-align-center { align-items: center; }
+.flex-justify-center { justify-content: center; }
 
 
 
-/*  component classes  */
-.nav ul{
+/* component classes */
+.nav ul {
 	list-style-type: none;
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-left: 0;
-
 }
+
 
 .navbar {
 	background-color: var(--color-neutral-dark);
 	color: var(--color-neutral-light);
 	line-height: var(--header-height);
-	max-height: 48px;
 }
-
 .navbar h1 {
 	font-size: 1em;
 	font-family: Helvetica, Arial, sans-serif;
@@ -97,6 +231,48 @@ a:hover {
 .navbar a {
 	padding: 0 0.5em;
 }
+
+
+.nav a {
+	display: block;
+	padding: 0.2em 0.5em;
+}
+	.nav a:hover {
+		background-color: var(--color-main-medium);
+	}
+
+	.nav.crumbs ul,
+	.nav.pills ul,
+	.nav.stretch ul,
+	.nav.flex ul {
+		display: flex;
+	}
+
+	.nav.stretch li {
+		flex: 1 1 auto;
+		text-align: center;
+	}
+
+	.nav.pills a {
+		border-radius: 2em;
+		padding: 0.5em 1em;
+	}
+
+	.nav.crumbs a {
+		display:  inline-block;
+	}
+	.nav.crumbs a:hover {
+		background-color: transparent;
+		color:  inherit;
+		text-decoration: underline;
+	}
+	.nav.crumbs li:not(:first-child)::before {
+		content: '→';
+		font-family: arial;
+	}
+
+
+
 
 .view-window {
 	position: relative;
@@ -107,18 +283,19 @@ a:hover {
 	height: 70vh;
 }
 
+
 .card {
-	background-color: var(--color-white);
+	backgound-color: var(--color-white);
 	padding: 1em;
 	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-bottom:  1em;
 
 	position: relative;
 	overflow: hidden;
 }
 	.card.soft {
-		border-radius: 0.5em;
-		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		border-radius:  0.5em;
+		box-shadow:  0 0 10px rgba(0,0,0,0.1);
 	}
 	.card.hard {
 		border-radius: 0.2em;
@@ -134,27 +311,188 @@ a:hover {
 	.card.flat {
 		padding: 0;
 	}
+	.card-section~.card-section {
+		border-top: 1px solid var(--color-neutral-light);
+	}
+	.card-section {
+		padding: 1em;
+	}
 
-/* footer */
+	.well {
+		padding: 0.5em;
+		background-color: var(--color-neutral-light);
+		margin: 1px;
+	}
+	.well .well {
+		background-color: var(--color-white);
+	}
 
-.footercontrol {
-			padding: 100px;
-			text-align: center;
-			font-size: 0.7em;
-			background-color: black;
-			color: white;
-			margin-top: 100px;
-			margin-bottom: 0px;
-		}
-
-/* fix bugs for the nav bar */
-
-div.container.display-flex.flex-align-center {
-	max-height: 48px;
+p::first-letter {
+	margin-left: 2em;
 }
 
-nav.nav.flex-none {
-	max-height: 48px;
+code {
+	white-space: pre-wrap;
+	display: block;
+}
+
+/* tables */
+
+.table {
+	width: 100%;
+	border-collapse: collapse;
+}
+.table td,
+.table th {
+	text-align: left;
+	padding: 0.2em 0.5em;
+}
+
+.table.lined.all tbody tr,
+.table.lined.horizontal tbody tr {
+	border-top: 1px solid var(--color-neutral-medium);
+}
+.table.lined.all th:not(:first-child),
+.table.lined.all td:not(:first-child),
+.table.lined.vertical th:not(:first-child),
+.table.lined.vertical td:not(:first-child) {
+	border-left: 1px solid var(--color-neutral-medium);
+}
+.table.lined.all,
+.table.lined.border {
+	border: 1px solid var(--color-neutral-medium);
+}
+.table.striped tbody tr:nth-child(odd) {
+	background-color: var(--color-neutral-light);
 }
 
 
+/* forms */
+
+.form-input {
+	display: inline-block;
+	width: 100%;
+	border-width: 0;
+	background-color: transparent;
+	font: inherit;
+	padding: 0.5em 1em;
+	border-bottom: 1px solid var(--color-neutral-medium);
+	outline: 0;
+}
+.form-control {
+	margin: 1em 0;
+}
+.form-label {
+	font-size: 0.8em;
+	color: var(--color-neutral-medium);
+}
+.btn,
+.form-button {
+	display: inline-block;
+	width: 100%;
+	border-width: 0;
+	font: inherit;
+	border-radius: 0.3em;
+	padding: 0.5em 1em;
+	background-color: var(--color-neutral-light);
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	outline: 0;
+	-webkit-appearance: none;
+}
+.btn:hover,
+.form-button:hover {
+	text-decoration: none;
+}
+	.btn.inline {
+		width:  initial;
+	}
+	.button.sell {
+		background-color: var(--color-purchase);
+	}
+
+.hotdog {
+	display: inline-flex;
+	width: 100%;
+	font: inherit;
+	background-color: var(--color-neutral-light);
+	padding: 0.5em 1.5em;
+	border-radius: 2em;
+	border-width: 0;
+	outline: 0;
+}
+	.hotdog.dark {
+		background-color: var(--color-neutral-dark);
+		color: var(--color-neutral-light);
+	}
+	.hotdog input {
+		background-color: transparent;
+		border-width: 0;
+		flex: 1 1 100%;
+		outline: 0;
+		font: inherit;
+	}
+
+.form-select>select {
+	padding: 0.5em 1em;
+	background-color: var(--color-neutral-light);
+	border-width: 0;
+	border-radius: 0.3em;
+	cursor: pointer;
+	-webkit-appearance: none;
+	display: inline-block;
+	width: 100%;
+	font: inherit;
+	outline: 0;
+}
+.form-select {
+	position: relative;
+}
+.form-select::after {
+	position: absolute;
+	content: '▼';
+	font-family: Arial,sans-serif;
+	font-size: 0.9em;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0.3rem;
+	pointer-events: none;
+	color: var(--color-neutral-medium);
+}
+
+
+.icon {
+	display: inline-block;
+	width: 1.5em;
+	height: 1.5em;
+	vertical-align: text-bottom;
+}
+
+
+/* toggle */
+
+.toggle label {
+	display: inline-block;
+	width: 2em;
+	height: 1em;
+	background-color: var(--color-neutral-light);
+	border: 0.1em solid var(--color-neutral-medium);
+	border-radius: 1em;
+	position: relative;
+	font-size: 1.3em;
+}
+.toggle label::after {
+	content: '';
+	position: absolute;
+	width: 0.8em;
+	height: 0.8em;
+	display: inline-block;
+	border-radius: 1em;
+	background-color: var(--color-white);
+	transition: all 0.3s;
+	box-shadow: 0 0 2px rgba(0,0,0,0.4);
+}
+.toggle input:checked + label::after {
+	transform: translateX(1em);
+}

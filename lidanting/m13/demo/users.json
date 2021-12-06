@@ -1,0 +1,27 @@
+[
+	{
+		"name":"Michael Catanzaro",
+		"type":"Teacher",
+		"email":"mcatanza2@i.art.edu",
+		"classes":[601,608,618]
+	},
+	{
+		"name":"Chandler Bing",
+		"type":"who knows",
+		"email":"chandler@aol.com",
+		"classes":[601,608,618]
+	},
+	{
+		"name":"Joey Tribbiani",
+		"type":"actor",
+		"email":"joey@aol.com",
+		"classes":[601,608,618]
+	},
+	{
+		"name":"Danting Li",
+		"type":"myself",
+		"email":"dli26@art.edu",
+		"classes":[601,608,618]
+	}
+
+]
