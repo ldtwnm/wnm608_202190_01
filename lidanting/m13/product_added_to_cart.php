@@ -12,6 +12,18 @@ $cart_product = cartItemById($_GET['id']);
 	
 	<title>Added Product To Cart</title>
 	<? include "parts/meta.php" ?>
+	<style>
+/* footer */
+.footercontrol {
+			padding: 100px;
+			text-align: center;
+			font-size: 0.7em;
+			background-color: black;
+			color: white;
+			margin-top: 100px;
+			margin-bottom: 0px;
+		}
+	</style>
 </head>
 <body>
 <? include "parts/navbar.php" ?>
@@ -35,6 +47,7 @@ $cart_product = cartItemById($_GET['id']);
 
 </div>
 
+<footer class="footercontrol" >&copy; Made by Liz Li. All Rights Reserved.</footer>
 	
 </body>
 </html>

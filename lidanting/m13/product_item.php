@@ -132,9 +132,7 @@ $thumbs_elements = array_reduce($thumbs,function($r,$o){
 ?>
 	</div>
 	
-
-<footer class="footercontrol" >&copy; Made by Danting Li.</footer>
-
+<footer class="footercontrol" >&copy; Made by Liz Li. All Rights Reserved.</footer>
 
 </body>
 </html>

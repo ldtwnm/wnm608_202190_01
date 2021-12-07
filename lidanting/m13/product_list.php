@@ -57,7 +57,6 @@ $products = isset($result['error']) ? [] : $result;
 
 <style>
    /* footer */
-
    .footercontrol {
          padding: 100px;
          text-align: center;
@@ -206,7 +205,7 @@ $products = isset($result['error']) ? [] : $result;
 
 
 
-   <footer class="footercontrol" >&copy; Made by Danting Li.</footer>
+   <footer class="footercontrol" >&copy; Made by Liz Li. All Rights Reserved.</footer>
 	
 </body>
 </html>

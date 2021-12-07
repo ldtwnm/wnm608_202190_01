@@ -1,6 +1,7 @@
 <?
 
 include_once "lib/php/functions.php";
+include_once "parts/templates.php";
 
 ?>
 
@@ -11,43 +12,10 @@ include_once "lib/php/functions.php";
 	
 	<title>YOSN Store</title>
 
-	<? include "parts/meta.php" ?>
+	<?php include "parts/meta.php" ?>
 	
 
-
-
 	<style>
-		* {
-  box-sizing: border-box;
-}
-
-/* Create three equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  border-style: solid;
-  border-width: 0.5px;
-  border-color: #1e392a;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-  }
-}
-
-
-
-
 
 /* footer */
 
@@ -61,28 +29,15 @@ include_once "lib/php/functions.php";
 			margin-bottom: 0px;
 		}
 
-
-
-
-
-
-
-
-
 	</style>
 
 
 </head>	
 <body>
 	
-	<? include "parts/navbar.php" ?>
+	<?php include "parts/navbar.php" ?>
 
 	
-
-	
-
-
-
 
 	<div class="view-window" style="background-image:url(img/webdesign.png);">
 		<h2>YOSN Product</h2>
@@ -94,72 +49,25 @@ include_once "lib/php/functions.php";
 
 
 
-
-
-
-
-			<div class="row">
-			  <div class="column" style="border-color: #1e392a;">
-			    <h2>Visual Design</h2>
-			    <img style="width: 70%;" src="img/pringdesign.png">
-			  </div>
-			  <div class="column" style="border-color: #1e392a;">
-			    <h2>Visual Design</h2>
-			    <img style="width: 70%;" src="img/pringdesign.png">
-			  </div>
-			  <div class="column" style="border-color: #1e392a;">
-			    <h2>Visual Design</h2>
-			    <img style="width: 70%;" src="img/pringdesign.png">
-			  </div>
-			  <div class="column" style="border-color: #1e392a;">
-			    <h2>Visual Design</h2>
-			    <img style="width: 70%;" src="img/pringdesign.png">
-			  </div>
-			  <div class="column" style="border-color: #1e392a;">
-			    <h2>Visual Design</h2>
-			    <img style="width: 70%;" src="img/pringdesign.png">
-			  </div>
-			  <div class="column" style="border-color: #1e392a;">
-			    <h2>Visual Design</h2>
-			    <img style="width: 70%;" src="img/pringdesign.png">
-			  </div>
-			</div>
-
-
-
-
-
 		</div>
 	</div>
 
 
-
-
-
-
-
-
-
 <div class="container">
-      <h2>NEW FRUIT</h2>
+      <h2>NEW GRAPHIC DESIGN PRODUCT</h2>
 
-      <? recommendCategory('fruit') ?>
+      <? recommendCategory('graphic') ?>
    </div>
 
    <div class="container">
-      <h2>NEW VEGETABLES</h2>
+      <h2>NEW BRANDING DESIGN PRODUCT</h2>
 
-      <? recommendCategory('vegetable') ?>
+      <? recommendCategory('branding') ?>
    </div>
 
 
 
-
-
-<footer class="footercontrol" >&copy; Made by Danting Li.</footer>
-
-
-
+<footer class="footercontrol" >&copy; Made by Liz Li. All Rights Reserved.</footer>
 
 
 
