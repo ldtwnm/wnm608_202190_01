@@ -58,6 +58,11 @@ $cart = getCartItems();
 		</div>
 	</div>
 
+
+	<!--
 	<footer class="footercontrol" >&copy; Made by Liz Li. All Rights Reserved.</footer>
+	-->
+
+
 </body>
 </html>

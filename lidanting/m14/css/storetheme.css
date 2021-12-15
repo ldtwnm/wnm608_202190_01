@@ -1,7 +1,7 @@
 :root {
-	--color-neutral-light: #f0ecec;
-	--color-neutral-medium: rgba(96, 130, 182, 0.3);
-	--color-neutral-dark: rgba(17, 23, 47, 1.0);
+	--color-neutral-light: #e5e5e1;
+	--color-neutral-medium: rgba(205, 212, 199, 1.0);
+	--color-neutral-dark: rgba(86, 102, 96, 1.0);
 }
 
 body {

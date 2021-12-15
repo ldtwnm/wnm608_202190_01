@@ -31,6 +31,10 @@ include_once "lib/php/functions.php";
 		<a href="product_list.php">Back to Shopping</a>
 	</div>
 </div>
+
+<!--
 <footer class="footercontrol" >&copy; Made by Liz Li. All Rights Reserved.</footer>	
+-->
+
 </body>
 </html>

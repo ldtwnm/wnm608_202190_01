@@ -47,7 +47,9 @@ $cart_product = cartItemById($_GET['id']);
 
 </div>
 
+<!--
 <footer class="footercontrol" >&copy; Made by Liz Li. All Rights Reserved.</footer>
+-->
 	
 </body>
 </html>
